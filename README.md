@@ -24,5 +24,5 @@ The system is built as a Google Apps Script that runs on a time-based trigger.
 5. Set up a Time-driven trigger for `appendUpdatesToCkan()` to run every 5 minutes.
 
 ## Data Sources
-* **Source:** [data.gov.il - Israel Airport Authority](https://data.gov.il/dataset/flydata)
+* **Source:** [data.gov.il - Israel Airport Authority](https://data.gov.il/he/datasets/airport_authority/flydata/e83f763b-b7d7-479e-b172-ae981ddc6de5)
 * **Destination Log:** [odata.org.il - FlyData Versioning](https://www.odata.org.il/dataset/flydata)
