@@ -5,7 +5,7 @@ This project provides an automated solution for tracking and versioning flight d
 ## How it Works
 The system is built as a Google Apps Script that runs on a time-based trigger.
 
-1.  **Fetching:** Every 5 minutes, the script polls the live dataset from the official Government Data Portal.
+1.  **Fetching:** Every 15 minutes, the script polls the live dataset from the official Government Data Portal.
 2.  **Comparison:** It compares the live data against a "Snapshot" stored in a Google Sheet to identify only new records (INSERTs).
 3.  **Logging:** New records are appended with a metadata timestamp and an action type.
 4.  **Syncing:** The updated log is pushed as a CSV resource to the target CKAN dataset at `odata.org.il`.
